@@ -9,10 +9,9 @@ const SubFooter = () => {
 	return (
 		<section className="mt-20 bg-oxford_blue_2 flex gap-32 subfooter">
 			<div className="pt-10 ml-32 subfooter-head">
-				<h1 className="text-white text-3xl font-extrabold">DENTOL.</h1>
+				<h1 className="text-white text-3xl font-extrabold">Pearls Dental Care</h1>
 				<p className="text-md text-white pt-8 w-52">
-					Mauris non nisi semper, lacinia neque in, dapibus leo. Curabitur
-					sagittis libero tincidunt tempor finibus.
+					Visit us for a caring dental experience tailored to your needs !
 				</p>
 				<div className="text-white flex gap-5 pt-4">
 					<span className="bg-gradient-to-tr from-carolina_blue to-royal_blue h-10 w-10 text-white rounded-full flex justify-center items-center">
