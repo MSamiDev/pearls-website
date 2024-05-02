@@ -107,7 +107,7 @@ const SubFooter = () => {
 					<span className="bg-gradient-to-tr from-carolina_blue to-royal_blue h-10 w-10 text-black rounded-full flex justify-center items-center">
 						<AiOutlineMail />
 					</span>{" "}
-					help@example.com
+					drsumairabaig@gmail.com
 				</div>
 			</div>
 		</section>
