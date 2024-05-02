@@ -9,20 +9,23 @@ const MobileLink = ({ MobileLink }) => {
         className="text-3xl absolute right-6 top-6 cursor-pointer "
       />
       <ul className="flex flex-col justify-center space-y-8 h-[30rem] items-center capitalize font-secondary">
-        <li className="font-bold text-oxford_blue cursor-pointer text-2xl  hover:text-royal_blue">
+      <li className="font-bold text-oxford_blue cursor-pointer  hover:text-royal_blue text-3xl">
           Home
         </li>
-        <li className="font-bold text-oxford_blue cursor-pointer text-2xl  hover:text-royal_blue">
-          Services
+
+        <li className="font-bold text-oxford_blue cursor-pointer  hover:text-royal_blue text-3xl">
+          <a href="#services">Services</a>
         </li>
-        <li className="font-bold text-oxford_blue cursor-pointer text-2xl  hover:text-royal_blue">
+        <li className="font-bold text-oxford_blue cursor-pointer hover:text-royal_blue text-3xl">
+          <a href="#aboutus">
+
           About Us
+          </a>
         </li>
-        <li className="font-bold text-oxford_blue cursor-pointer text-2xl  hover:text-royal_blue">
-          Blog
-        </li>
-        <li className="font-bold text-oxford_blue cursor-pointer text-2xl  hover:text-royal_blue">
+        <li className="font-bold text-oxford_blue cursor-pointer hover:text-royal_blue text-3xl">
+          <a href="#contact">
           Contact
+          </a>
         </li>
       </ul>
     </nav>

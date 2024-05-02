@@ -36,35 +36,21 @@ const SubFooter = () => {
 					<span className="pt-1 text-white font-extrabold">
 						<AiOutlinePlus size="19" />
 					</span>
+				<a href="#aboutus">
 					About Us
+				</a>
 				</li>
 				<li className="pt-4 text-white font-bold inline-flex gap-1 cursor-pointer hover:text-white">
 					<span className="pt-1 text-white font-extrabold">
 						<AiOutlinePlus size="19" />
 					</span>
+					<a href="#services">
 					Services
-				</li>
-				<li className="pt-4 text-white font-bold inline-flex gap-1 cursor-pointer hover:text-white">
-					<span className="pt-1 text-white font-extrabold">
-						<AiOutlinePlus size="19" />
-					</span>
-					Projects
-				</li>
-				<li className="pt-4 text-white font-bold inline-flex gap-1 cursor-pointer hover:text-white">
-					<span className="pt-1 text-white font-extrabold">
-						<AiOutlinePlus size="19" />
-					</span>
-					Our Teams
-				</li>
-				<li className="pt-4 text-white font-bold inline-flex gap-1 cursor-pointer hover:text-white">
-					<span className="pt-1 text-white font-extrabold">
-						<AiOutlinePlus size="19" />
-					</span>
-					Latest Blog
+					</a>
 				</li>
 			</ul>
 
-			<div className="pt-10 subfooter-card">
+			{/* <div className="pt-10 subfooter-card">
 				<h1 className="text-white text-2xl font-bold w-40">Other Links</h1>
 				<div className="pt-8 text-white w-32 font-bold inline-flex gap-1 cursor-pointer hover:text-white">
 					<span className="pt-1 text-white font-extrabold">
@@ -102,7 +88,7 @@ const SubFooter = () => {
 					</span>
 					Live Advisory
 				</div>
-			</div>
+			</div> */}
 
 			<div className="pt-10 mr-52 contact">
 				<h1 className="text-white text-2xl font-bold">Contact Us</h1>

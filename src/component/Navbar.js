@@ -8,8 +8,8 @@ const Navbar = ({ MobileLink }) => {
 		<header className="w-full lg:pt-10 pt-4 cursor-pointer bg-hero">
 			<div className="mx-auto container">
 				<div className="flex items-center justify-between">
-					<div>
-						<img src={logo} className=" h-20" />
+					<div className=" flex gap-3 items-center">
+						<img src={logo} className=" h-24" />
 						<h1
 							className="font-extrabold text-4xl text-oxford_blue"
 							style={{ fontFamily: "maharlika" }}

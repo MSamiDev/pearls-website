@@ -24,7 +24,6 @@ const LinkBar = () => {
           </a>
         </li>
       </ul>
-      <Button text="BOOK APPOINTMENT" />
     </nav>
   );
 };
